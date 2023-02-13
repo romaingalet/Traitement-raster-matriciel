@@ -1,10 +1,10 @@
 # raster_overlay
 
-Calcul d'intersection avec la matrice représentant un raster.
+Calcul d'intersection avec la matrice représentant un raster: une alternative à l'intersection vectorielle reposant surles GeaDataFrame.
+Ici, le raster résultant est obtenu par une somme de matrices.
 
-Intersection de deux couches :
-- La première est un segmentation de l'espace (~pyr)
-- L'autre correspond à une classification (~ocs)
+Deux couches:
+- (1) Une segmentation de l'espace (~pyr)
+- (2) Une classification (~ocs)
 
-La couche résultante est déterminée comme l'intersection des deux couches.
-
+La matrice pivot finale donne la répartition des classes (1) sur chaque entité de la segmentation (2).
