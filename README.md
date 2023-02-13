@@ -1,5 +1,3 @@
-# raster_overlay
-
 # Calcul d'intersection avec la matrice représentant un raster: 
 ## une alternative à l'intersection vectorielle de `GeoDataFrame` de la librairie `geopandas`.
 
