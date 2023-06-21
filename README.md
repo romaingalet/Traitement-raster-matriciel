@@ -1,7 +1,7 @@
 # Calcul d'intersection (version matricielle)
 ## une alternative à l'intersection vectorielle de `GeoDataFrame` de la librairie `geopandas`.
 
-A - Raster_overlay
+### A - Raster_overlay
 Ici, le raster résultant est obtenu par une somme de matrices.
 
 Deux couches:
@@ -10,4 +10,5 @@ Deux couches:
 
 La matrice pivot finale donne la répartition des classes (1) sur chaque entité de la segmentation (2).
 
-B - 
+### B - Vectorisation (numpy array -> shp & tif -> shp)
+Code minimal, Gestion CRS, Solution la plus compacte
