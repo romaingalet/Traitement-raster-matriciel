@@ -12,3 +12,5 @@ La matrice pivot finale donne la répartition des classes (1) sur chaque entité
 
 ### B - Vectorisation (numpy array -> shp & tif -> shp)
 Code minimal, Gestion CRS, Solution la plus compacte
+![image](https://github.com/romaingalet/Traitement-raster-matriciel/assets/87038114/ceb1926a-6799-4ddc-8c68-fbce98c383a2)
+
